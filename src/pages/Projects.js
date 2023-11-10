@@ -20,7 +20,7 @@ export default function Projects() {
 function ProjectCard({project}) {
   //the selected location is the current location
   return (
-    <div class="flex items-center space-x-6 p-4 border rounded-3xl bg-slate-200">
+    <div class="flex items-center space-x-6 p-4 border shadow-lg rounded-3xl bg-slate-200">
       <img class="h-64 w-64 object-cover rounded-full" src={project.image}></img>
       <a href={project.url}>
         <h3>{project.name}</h3>

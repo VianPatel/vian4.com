@@ -3,7 +3,7 @@ export default function Projects() {
   //let project = { name: "Project Name", image: "image", description: "description description description description description description description description description description", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" };
   return (
     <div>
-      <h2 class="pb-4 text-3xl">Projects</h2>
+      <h2 class="pb-4 text-center text-3xl">Projects</h2>
       <div class="py-2">
         <ProjectCard project={project} />
       </div>

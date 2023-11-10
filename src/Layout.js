@@ -7,11 +7,12 @@ export default function App() {
   //selected class is class="rounded-t-lg overflow-hidden border-t border-l border-r p-4"
   return (
     <>
-      <nav class="px-4 py-2 flex shadow-md shadow-cyan-600/30 min-w-full bg-cyan-700 ">
-        <SelectorLink selectedLocation={location} to="/" class="text-white  px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Home</SelectorLink>
-        <SelectorLink selectedLocation={location} to="/about" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">About</SelectorLink>
-        <SelectorLink selectedLocation={location} to="/projects" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Projects</SelectorLink>
-        <div class="flex-grow"/>
+      <nav class="px-4 py-2 flex justify-between shadow-md shadow-cyan-600/30 min-w-full bg-cyan-700">
+        <div class="flex">
+          <SelectorLink selectedLocation={location} to="/" class="text-white  px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Home</SelectorLink>
+          <SelectorLink selectedLocation={location} to="/about" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">About</SelectorLink>
+          <SelectorLink selectedLocation={location} to="/projects" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Projects</SelectorLink>
+        </div>
         <p class="text-white px-4 py-1">vian4.com</p>
       </nav>
 

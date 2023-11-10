@@ -7,8 +7,8 @@ export default function App() {
   //selected class is class="rounded-t-lg overflow-hidden border-t border-l border-r p-4"
   return (
     <>
-      <nav class="px-4 py-2 flex shadow-md shadow-cyan-600/30 fixed min-w-full bg-cyan-600">
-        <SelectorLink selectedLocation={location} to="/" class="text-white px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Home</SelectorLink>
+      <nav class="px-4 py-2 flex shadow-md shadow-cyan-600/30 fixed min-w-full bg-cyan-700 ">
+        <SelectorLink selectedLocation={location} to="/" class="text-white  px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Home</SelectorLink>
         <SelectorLink selectedLocation={location} to="/about" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">About</SelectorLink>
         <SelectorLink selectedLocation={location} to="/projects" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Projects</SelectorLink>
         <div class="flex-grow"/>
@@ -19,12 +19,12 @@ export default function App() {
       <div class="pt-4"></div>
       */}
 
-      <div class="mt-12 p-4 flex-grow bg-blue-50">
+      <div class="mt-12 p-4 flex-grow bg-slate-300">
         <Outlet />
       </div>
 
 
-      <div class="p-4 bg-cyan-600">
+      <div class="p-4 bg-cyan-700">
         <p class="text-white">Footer</p>
       </div>
 

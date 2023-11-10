@@ -12,7 +12,7 @@ export default function App() {
         <SelectorLink selectedLocation={location} to="/about" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">About</SelectorLink>
         <SelectorLink selectedLocation={location} to="/projects" class="text-white inline-block px-4 py-1" classSelected="text-white inline-block px-4 py-1 border rounded">Projects</SelectorLink>
         <div class="flex-grow"/>
-        <p class="text-white px-4 py-1">Vian4.com</p>
+        <p class="text-white px-4 py-1">vian4.com</p>
       </nav>
 
       <div class="flex-grow flex flex-col overflow-auto h-0">

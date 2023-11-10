@@ -1,18 +1,22 @@
+const projects = [
+  { name: "Thermal Camera Driver", image: "image", description: "Driver connecting mlx90640 thermal sensor to RPI Pico", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" },
+  { name: "Thermal Camera Driver", image: "image", description: "Driver connecting mlx90640 thermal sensor to RPI Pico", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" },
+  { name: "Thermal Camera Driver", image: "image", description: "Driver connecting mlx90640 thermal sensor to RPI Pico", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" },
+]
+
 export default function Projects() {
-  let project = { name: "Thermal Camera Driver", image: "image", description: "Driver connecting mlx90640 thermal sensor to RPI Pico", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" };
-  //let project = { name: "Project Name", image: "image", description: "description description description description description description description description description description", url: "https://github.com/VianPatel/mlx90640-RPI-Pico" };
+  let projectsHTML = projects.map(project => 
+    <div class="py-2">
+      <ProjectCard project={project} />
+    </div> 
+  );
   return (
     <div>
       <h2 class="pb-4 text-center text-3xl">Projects</h2>
-      <div class="py-2">
+      {projectsHTML}
+      {/*<div class="py-2">
         <ProjectCard project={project} />
-      </div>
-      <div class="py-2">
-        <ProjectCard project={project} />
-      </div>
-      <div class="py-2">
-        <ProjectCard project={project} />
-      </div>
+  </div>*/}
     </div>
   );
 }

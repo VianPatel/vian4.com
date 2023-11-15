@@ -23,6 +23,7 @@ export default function App() {
 
         <div class="p-4 bg-cyan-700">
           <p class="text-white">Footer</p>
+          <p class="text-white text-xs">Copyright © 2023 Vian Patel</p>
         </div>
       </div>
 

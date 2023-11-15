@@ -1,5 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 
+import { siteName, footerCopyright } from "./Config";
 
 export default function App() {
   const location = useLocation().pathname;
@@ -13,7 +14,7 @@ export default function App() {
           <SelectorLink selectedLocation={location} to="/about" class="text-white inline-block px-4 py-1" classSelected="text-white px-4 py-1 border rounded">About</SelectorLink>
           <SelectorLink selectedLocation={location} to="/projects" class="text-white inline-block px-4 py-1" classSelected="text-white px-4 py-1 border rounded">Projects</SelectorLink>
         </div>
-        <p class="text-white px-4 py-1">vian4.com</p>
+        <p class="text-white px-4 py-1">{siteName}</p>
       </nav>
 
       <div class="flex-grow flex flex-col overflow-auto">
@@ -22,8 +23,8 @@ export default function App() {
         </div>
 
         <div class="p-4 bg-cyan-700">
-          <p class="text-white">Footer</p>
-          <p class="text-white text-xs">Copyright © 2023 Vian Patel</p>
+          <a href="https://github.com/VianPatel/vian4.com" class="text-white">Vian4 Theme</a>
+          <p class="text-white text-xs">{footerCopyright}</p>
         </div>
       </div>
 

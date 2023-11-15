@@ -1,3 +1,7 @@
+export const siteName = "vian4.com";
+
+export const footerCopyright = "Copyright © 2023 Vian Patel";
+
 export const projects = [
     {
         "name": "Thermal Camera Driver",

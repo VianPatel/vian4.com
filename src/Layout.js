@@ -16,7 +16,7 @@ export default function App() {
         <p class="text-white px-4 py-1">vian4.com</p>
       </nav>
 
-      <div class="flex-grow flex flex-col overflow-auto h-0">
+      <div class="flex-grow flex flex-col overflow-auto">
         <div class="p-4 flex-grow bg-slate-300">
           <Outlet />
         </div>

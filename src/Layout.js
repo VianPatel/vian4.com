@@ -17,7 +17,7 @@ export default function App() {
         <p class="text-white px-4 py-1">{siteName}</p>
       </nav>
 
-      <div class="flex-grow flex flex-col overflow-auto">
+      <div class="flex-grow flex flex-col overflow-y-scroll">
         <div class="p-4 flex-grow bg-slate-300">
           <Outlet />
         </div>

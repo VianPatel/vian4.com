@@ -1,12 +1,13 @@
-import PageTextContainer from "../components/PageTextContainer";
+import PageContainer from "../components/PageContainer";
+import TextContainer from "../components/TextContainer";
 
 export default function Home() {
   return (
-    <div>
+    <PageContainer>
       <h2 class="pb-4 text-center text-3xl">Home</h2>
-      <PageTextContainer>
+      <TextContainer>
         <p>Welcome to vian4.com</p>
-      </PageTextContainer>
-    </div>
+      </TextContainer>
+    </PageContainer>
   );
 }

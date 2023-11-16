@@ -2,7 +2,8 @@ import { useParams } from "react-router-dom";
 
 import Error from "./Error";
 
-import PageTextContainer from "../components/PageTextContainer";
+import PageContainer from "../components/PageContainer";
+import TextContainer from "../components/TextContainer";
 
 import { projects } from "../Config";
 
@@ -25,11 +26,11 @@ export default function Project() {
   }
 
   return (
-    <div>
+    <PageContainer>
       <h2 class="pb-4 text-center text-3xl">{project.name}</h2>
-      <PageTextContainer>
+      <TextContainer>
         <p>Project Info</p>
-      </PageTextContainer>
-    </div>
+      </TextContainer>
+    </PageContainer>
   );
 }

@@ -34,5 +34,15 @@ export default function App() {
 
 function SelectorLink(props) {
   //the selected location is the current location
-  return (<Link class={props.selectedLocation == props.to ? props.classSelected : props.class} to={props.to}>{props.children}</Link>);
+  //projects;
+  let isSelected = props.selectedLocation == props.to;
+  //if url is /projects/project-name, then the projects tab should still be selected in the nav bar
+  if (props.selectedLocation.startsWith("/projects/") && props.to == "/projects") {
+    isSelected = true;
+  }
+
+  if (isSelected) {
+    return (<Link class={props.classSelected} to={props.to}>{props.children}</Link>);
+  }
+  return (<Link class={props.class} to={props.to}>{props.children}</Link>);
 }

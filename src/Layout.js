@@ -1,6 +1,6 @@
 import { Outlet, Link, useLocation } from "react-router-dom";
 
-import { siteName, footerCopyright } from "./Config";
+import { siteName, footerCopyright } from "./generated/Config";
 
 export default function App() {
   const location = useLocation().pathname;

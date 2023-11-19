@@ -7,7 +7,7 @@ import TextContainer from "../components/TextContainer";
 
 import MarkdownBlock from "../components/MarkdownBlock";
 
-import { projects } from "../Config";
+import { projects } from "../generated/Config";
 
 function getProjectByResourceName(resourceName) {
   console.log(resourceName);

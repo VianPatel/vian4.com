@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 async function generateConfig() {
-    const configFolderPath = "../config";
-    const generatedPath = "../src/generated";
+    const configFolderPath = __dirname + "/../config";
+    const generatedPath = __dirname + "/../src/generated";
 
     let projectsList = [];
 
@@ -69,7 +69,9 @@ async function generateConfig() {
         console.log(JSON.stringify(config[key]));
     }
 
-    fs.mkdirSync(generatedPath);
+    if (!fs.existsSync(generatedPath)) {
+        fs.mkdirSync(generatedPath);
+    }
     fs.writeFileSync(generatedPath + "/Config.js", configJSContent);
 }
 

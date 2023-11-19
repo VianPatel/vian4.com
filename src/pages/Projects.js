@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 import PageContainer from "../components/PageContainer";
 import TextContainer from "../components/TextContainer";
 
-import { projects } from "../Config"
+import { projects } from "../generated/Config"
 
 export default function Projects() {
   let projectsHTML = projects.map(project => 

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import MarkdownBlock from "../components/MarkdownBlock";
+
 export default function ProjectCard({ project } ) {
   //the selected location is the current location
   return (
@@ -8,7 +10,7 @@ export default function ProjectCard({ project } ) {
       
       <div>
         <h3 class="font-bold">{project.name}</h3>
-        <p>{project.description}</p>
+        <MarkdownBlock markdown={project.description}/>
       </div>
     </Link>
   );

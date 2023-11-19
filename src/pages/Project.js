@@ -10,7 +10,6 @@ import MarkdownBlock from "../components/MarkdownBlock";
 import { projects } from "../generated/Config";
 
 function getProjectByResourceName(resourceName) {
-  console.log(resourceName);
   for (let project of projects) {
     if (project.resourceName == resourceName) {
       return project;
@@ -20,7 +19,6 @@ function getProjectByResourceName(resourceName) {
 }
 
 export default function Project() {
-  console.log(useParams());
   let project = getProjectByResourceName(useParams().project_name);
 
   if (project == null) {

@@ -29,6 +29,24 @@ async function generateConfig() {
         exit(-1);
     }
 
+    let home;
+    try {
+        home = fs.readFileSync(configFolderPath + "/home.md", "utf-8");
+    } catch (e) {
+        console.log("Unable to load " + (configFolderPath + "/home.md"));
+        exit(2);
+    }
+
+    let about;
+    try {
+        about = fs.readFileSync(configFolderPath + "/about.md", "utf-8");
+    } catch (e) {
+        console.log("Unable to load " + (configFolderPath + "/about.md"));
+        exit(2);
+    }
+
+    config.pages = {home: home, about: about};
+
     let projectsConfig = [];
     for (let projectName of projectsList) {
         let projectConfigRaw;

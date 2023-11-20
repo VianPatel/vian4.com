@@ -1,3 +1,3 @@
-# Thermal Camera Driver Info
+A driver enabling communication between a RPI Pico and a mlx90640 thermal sensor
 
-The thermal camera driver allows communication between an rpi and an mlx90640
+# Use cases

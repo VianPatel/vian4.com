@@ -1,0 +1,7 @@
+{
+  "name": "Air Monitor",
+  "resourceName": "air-monitor",
+  "image": "https://picsum.photos/200/2000",
+  "description": "A program that sends emails when the AQI has passed a configurable threshold. Compatible with an sds011 air quality sensor on a raspberry pi.",
+  "sourceUrl": "https://github.com/VianPatel/AirMonitor"
+}

@@ -84,13 +84,14 @@ async function generateConfig() {
 
     for (key in config) {
         configJSContent += "export const " + key + " = " + JSON.stringify(config[key]) + "\n";
-        console.log(JSON.stringify(config[key]));
     }
 
     if (!fs.existsSync(generatedPath)) {
         fs.mkdirSync(generatedPath);
     }
     fs.writeFileSync(generatedPath + "/Config.js", configJSContent);
+
+    console.log("Successfully generated Config.js");
 }
 
 generateConfig();

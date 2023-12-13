@@ -2,6 +2,6 @@
   "name": "Shapes Ray Tracing",
   "resourceName": "shapes-ray-tracing",
   "image": "https://picsum.photos/200",
-  "description": "",
+  "description": "Ray tracing demo in javascript.",
   "sourceUrl": "https://github.com/VianPatel/ShapesRayTracing"
 }

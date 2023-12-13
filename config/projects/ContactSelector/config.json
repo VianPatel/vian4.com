@@ -2,6 +2,6 @@
   "name": "Contact Selector",
   "resourceName": "contact-selector",
   "image": "https://picsum.photos/200",
-  "description": "",
+  "description": "A program to randomly select contacts from a json file given constraints for stratification such as role and location.",
   "sourceUrl": "https://github.com/VianPatel/ContactSelector"
 }

@@ -1,4 +1,4 @@
-Sheepshead card game implemented in java
+Sheepshead card game implemented in java.
 
 # Usage
 

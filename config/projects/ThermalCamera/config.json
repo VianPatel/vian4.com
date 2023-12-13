@@ -2,6 +2,6 @@
   "name": "Thermal Camera Driver",
   "resourceName": "thermal-camera-driver",
   "image": "https://picsum.photos/200",
-  "description": "Driver connecting mlx90640 thermal sensor to RPI Pico",
+  "description": "A driver enabling communication between a RPI Pico and a mlx90640 thermal sensor.",
   "sourceUrl": "https://github.com/VianPatel/mlx90640-RPI-Pico"
 }

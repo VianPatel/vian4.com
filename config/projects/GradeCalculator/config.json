@@ -2,6 +2,6 @@
   "name": "Grade Calculator",
   "resourceName": "grade-calculator",
   "image": "https://picsum.photos/200",
-  "description": "An app assisting in calculating grades",
+  "description": "An extension assisting users in calculating grades and prioritizing graded assignments.",
   "sourceUrl": "https://github.com/VianPatel/GradeCalculator"
 }

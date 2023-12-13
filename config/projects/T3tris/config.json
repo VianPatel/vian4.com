@@ -1,7 +1,7 @@
 {
   "name": "T3tris",
   "resourceName": "t3tris",
-  "image": "https://picsum.photos/200",
+  "image": "/projects/T3tris.png",
   "description": "T3tris: A 3D falling block game.",
   "sourceUrl": "https://github.com/VianPatel/T3tris"
 }

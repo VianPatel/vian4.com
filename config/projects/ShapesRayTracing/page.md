@@ -1,4 +1,4 @@
-Ray tracing demo in javascript.
+Ray tracing in javascript.
 
 # Usage
 

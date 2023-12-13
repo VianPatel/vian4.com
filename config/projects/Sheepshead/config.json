@@ -1,7 +1,7 @@
 {
   "name": "Sheepshead",
   "resourceName": "sheepshead",
-  "image": "https://picsum.photos/200",
+  "image": "/projects/Sheepshead.png",
   "description": "Sheepshead card game implemented in java.",
   "sourceUrl": "https://github.com/VianPatel/Sheepshead"
 }

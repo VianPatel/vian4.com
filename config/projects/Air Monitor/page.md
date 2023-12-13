@@ -10,8 +10,8 @@ Suppose you want to know when the air quality has reached a certain level so you
 
 [Project README.md](https://github.com/VianPatel/AirMonitor/blob/main/README.md)
 
-# Screenshots
+# Screenshots/Demo
 
 # Source
 
-[Project Source](https://github.com/VianPatel/AirMonitor)
+[Project source on Github](https://github.com/VianPatel/AirMonitor)

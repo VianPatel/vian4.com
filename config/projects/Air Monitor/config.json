@@ -1,7 +1,7 @@
 {
   "name": "Air Monitor",
   "resourceName": "air-monitor",
-  "image": "https://picsum.photos/200/2000",
+  "image": null,
   "description": "A program that sends emails when the AQI has passed a specified threshold.",
   "sourceUrl": "https://github.com/VianPatel/AirMonitor"
 }

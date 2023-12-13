@@ -4,14 +4,14 @@ async function generateConfig() {
     const configFolderPath = __dirname + "/../config";
     const generatedPath = __dirname + "/../src/generated";
 
-    let projectsList = [];
+    /*let projectsList = [];
 
     let allItemsInProjectsFolder = fs.readdirSync(configFolderPath + "/projects");
     for (let projectName of allItemsInProjectsFolder) {
         if (fs.lstatSync(configFolderPath + "/projects/" + projectName).isDirectory) {
             projectsList.push(projectName);
         }
-    }
+    }*/
 
     let configRaw;
     try {
@@ -47,8 +47,24 @@ async function generateConfig() {
 
     config.pages = {home: home, about: about};
 
+    let projectsOrderRaw;
+    try {
+        projectsOrderRaw = fs.readFileSync(configFolderPath + "/projects/order.json");
+    } catch (e) {
+        console.log("Unable to load " + (configFolderPath + "/projects/order.json"));
+        exit(2);
+    }
+
+    let projectsOrder;
+    try {
+        projectsOrder = JSON.parse(projectsOrderRaw);
+    } catch (e) {
+        console.log("Unable to parse " + (configFolderPath + "/projects/order.json"));
+        exit(-1);
+    }
+
     let projectsConfig = [];
-    for (let projectName of projectsList) {
+    for (let projectName of projectsOrder/*projectsList*/) {
         let projectConfigRaw;
         try {
             projectConfigRaw = fs.readFileSync(configFolderPath + "/projects/" + projectName + "/config.json");

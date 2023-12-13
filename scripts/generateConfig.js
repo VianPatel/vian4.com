@@ -83,7 +83,7 @@ async function generateConfig() {
     let configJSContent = "";
 
     for (key in config) {
-        configJSContent += "export const " + key + " = " + JSON.stringify(config[key]) + "\n";
+        configJSContent += "export const " + key + " = " + JSON.stringify(config[key]) + ";\n";
     }
 
     if (!fs.existsSync(generatedPath)) {

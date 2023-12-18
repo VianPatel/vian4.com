@@ -37,15 +37,15 @@ async function generateConfig() {
         exit(2);
     }
 
-    let about;
+    /*let about;
     try {
         about = fs.readFileSync(configFolderPath + "/about.md", "utf-8");
     } catch (e) {
         console.log("Unable to load " + (configFolderPath + "/about.md"));
         exit(2);
-    }
+    }*/
 
-    config.pages = {home: home, about: about};
+    config.pages = {home: home/*, about: about*/};
 
     let projectsOrderRaw;
     try {

@@ -1,15 +1,18 @@
-A customizable personal site for presenting biography and project information
+A customizable personal site for personal biography and project information
 
 # Use case
 
-Presenting information 
+Personal Site
 
 # Usage
 
-[Project README.md (Hardware setup, etc.)](https://github.com/VianPatel/AirMonitor/blob/main/mlx90640-RPI-Pico)
+Clone source and modify projects in config folder
+Add projects to the ./config/projects folder and edit ./config/projects/order.json
+<!---
 
 # Screenshots/Demo
+-->
 
 # Source
 
-[Project source on Github](https://github.com/VianPatel/mlx90640-RPI-Pico)
+[Project source on Github](https://github.com/VianPatel/vian4.com)

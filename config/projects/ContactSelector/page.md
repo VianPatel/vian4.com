@@ -9,8 +9,10 @@ Suppose you want to randomly select users from a Google contacts directory for u
 # Usage
 
 [Project README.md](https://github.com/VianPatel/ContactSelector/blob/main/README.md)
+<!---
 
 # Screenshots/Demo
+-->
 
 # Source
 

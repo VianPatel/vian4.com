@@ -9,8 +9,10 @@ Suppose you want to know when the air quality has reached a certain level so you
 # Usage
 
 [Project README.md](https://github.com/VianPatel/AirMonitor/blob/main/README.md)
+<!---
 
 # Screenshots/Demo
+-->
 
 # Source
 

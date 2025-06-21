@@ -1,0 +1,1 @@
+when clicking on a page in the header navbar, the margin on the selected page makes the nav bar grow slightly

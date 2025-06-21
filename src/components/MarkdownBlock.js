@@ -7,7 +7,7 @@ import Markdown from 'react-markdown';
 export default function MarkdownBlock({ markdown }) {
   return (
     
-    <article class="prose dark:prose-invert">
+    <article class="prose">
       <Markdown remarkPlugins={[remarkGFM, remarkGEMOJI]} rehypePlugins={[rehypeRAW]}>{markdown}</Markdown>
     </article>
   );

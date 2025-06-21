@@ -6,7 +6,7 @@ T3tris: A 3D falling block game.
 
 [Project README.md](https://github.com/VianPatel/T3tris/blob/main/README.md)
 
-# Screenshots/Demo
+# Screenshots / Demo
 
 <video controls>
   <source src="https://raw.githubusercontent.com/VianPatel/T3tris/main/3DTetrisGameplay.mp4" type="video/mp4">

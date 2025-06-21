@@ -7,7 +7,7 @@ Sheepshead card game implemented in java.
 [Project README.md](https://github.com/VianPatel/Sheepshead/blob/main/README.md)
 <!---
 
-# Screenshots/Demo
+# Screenshots / Demo
 -->
 
 # Source

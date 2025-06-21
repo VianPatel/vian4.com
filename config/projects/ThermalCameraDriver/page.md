@@ -9,7 +9,7 @@ Suppose you want to use a cheap thermal sensor with a raspberry pi pico. This dr
 [Project README.md (Hardware setup, etc.)](https://github.com/VianPatel/AirMonitor/blob/main/mlx90640-RPI-Pico)
 <!---
 
-# Screenshots/Demo
+# Screenshots / Demo
 -->
 
 # Source

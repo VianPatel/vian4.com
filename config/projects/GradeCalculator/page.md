@@ -8,7 +8,7 @@ Grade Calculator is an extension designed to help students manage their academic
 
 [Install from the Chrome Web Store](https://chromewebstore.google.com/u/2/detail/grade-calculator/eebfjmcjnmmeoobmpdonlfonjodbnbhg)
 
-# Screenshots/Demo
+# Screenshots / Demo
 
 ![Item media 1 screenshot](https://lh3.googleusercontent.com/1SxhJVdYfxFExtWccuei9sMkC7tir5a7UUSdP4VheXPDAPilc7lrnYRCO-Y19bijPJcZDbIkrGP57s-0sJ3XihO0fw=s1280-w1280-h800)
 

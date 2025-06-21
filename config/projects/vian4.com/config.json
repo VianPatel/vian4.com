@@ -1,7 +1,7 @@
 {
   "name": "vian4.com",
   "resourceName": "vian4",
-  "image": "https://picsum.photos/200",
+  "image": "/favicon.ico",
   "description": "A personal site framework",
   "sourceUrl": "https://github.com/VianPatel/vian4.com"
 }

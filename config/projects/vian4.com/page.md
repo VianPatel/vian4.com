@@ -7,6 +7,7 @@ Personal Site
 # Usage
 
 Clone source and modify projects in config folder
+
 Add projects to the ./config/projects folder and edit ./config/projects/order.json
 <!---
 

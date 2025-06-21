@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Vian4.com
+
+A customizable personal site for personal biography and project information
+
+Clone source and modify projects in config folder
+
+Add projects to the ./config/projects folder and edit ./config/projects/order.json
+
+
+
+
+# Building Instructions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
